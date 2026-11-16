@@ -1,6 +1,6 @@
-# Linux User & Group Management Cheat Sheet
+# Linux Cheet Sheet
 
-A quick reference guide for inspecting and managing users, groups, and permissions on Linux systems.
+A quick reference guide for Linux man page info
 
 ---
 
@@ -39,4 +39,9 @@ groups username
 List all members of a specific group:
 ```bash
 getent group groupname
+```
+## Time 
+C functions:
+```bash
+utime,  utimes - change file last access and modification times
 ```
